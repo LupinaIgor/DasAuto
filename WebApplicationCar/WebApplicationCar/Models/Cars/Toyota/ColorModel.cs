@@ -14,4 +14,6 @@ public class ColorModel
     public string RGB { get; set; }
     
     public string Code { get; set; }
+
+    public List<ConfigurationColorsModel> Configurations { get; set; } = new List<ConfigurationColorsModel>();
 }

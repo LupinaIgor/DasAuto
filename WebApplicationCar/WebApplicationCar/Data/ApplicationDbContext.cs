@@ -8,6 +8,12 @@ public class ApplicationDbContext : IdentityDbContext
 {
     public DbSet<ColorModel> Colors { get; set; }
     
+    public DbSet<ToyotaModel> ToyotaModels { get; set; }
+    
+    public DbSet<ConfigurationModel> Configurations { get; set; }
+    
+    public DbSet<ConfigurationColorsModel> ConfigurationColors { get; set; }
+    
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {

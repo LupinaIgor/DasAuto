@@ -240,6 +240,71 @@ namespace WebApplicationCar.Data.Migrations
                     b.ToTable("Colors");
                 });
 
+            modelBuilder.Entity("WebApplicationCar.Models.Cars.Toyota.ConfigurationColorsModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ColorId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("ConfigurationColorsModelId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ConfigurationId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("MainImageUrl")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ColorId");
+
+                    b.HasIndex("ConfigurationColorsModelId");
+
+                    b.HasIndex("ConfigurationId");
+
+                    b.ToTable("ConfigurationColors");
+                });
+
+            modelBuilder.Entity("WebApplicationCar.Models.Cars.Toyota.ConfigurationModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ModelId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ModelId");
+
+                    b.ToTable("Configurations");
+                });
+
+            modelBuilder.Entity("WebApplicationCar.Models.Cars.Toyota.ToyotaModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ToyotaModels");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -289,6 +354,55 @@ namespace WebApplicationCar.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("WebApplicationCar.Models.Cars.Toyota.ConfigurationColorsModel", b =>
+                {
+                    b.HasOne("WebApplicationCar.Models.Cars.Toyota.ColorModel", "Color")
+                        .WithMany("Configurations")
+                        .HasForeignKey("ColorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApplicationCar.Models.Cars.Toyota.ConfigurationColorsModel", null)
+                        .WithMany("Colors")
+                        .HasForeignKey("ConfigurationColorsModelId");
+
+                    b.HasOne("WebApplicationCar.Models.Cars.Toyota.ConfigurationModel", "Configuration")
+                        .WithMany()
+                        .HasForeignKey("ConfigurationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Color");
+
+                    b.Navigation("Configuration");
+                });
+
+            modelBuilder.Entity("WebApplicationCar.Models.Cars.Toyota.ConfigurationModel", b =>
+                {
+                    b.HasOne("WebApplicationCar.Models.Cars.Toyota.ToyotaModel", "Model")
+                        .WithMany("Configurations")
+                        .HasForeignKey("ModelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Model");
+                });
+
+            modelBuilder.Entity("WebApplicationCar.Models.Cars.Toyota.ColorModel", b =>
+                {
+                    b.Navigation("Configurations");
+                });
+
+            modelBuilder.Entity("WebApplicationCar.Models.Cars.Toyota.ConfigurationColorsModel", b =>
+                {
+                    b.Navigation("Colors");
+                });
+
+            modelBuilder.Entity("WebApplicationCar.Models.Cars.Toyota.ToyotaModel", b =>
+                {
+                    b.Navigation("Configurations");
                 });
 #pragma warning restore 612, 618
         }

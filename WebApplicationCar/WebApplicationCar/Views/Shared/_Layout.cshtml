@@ -25,8 +25,16 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-controller="ColorsHandMade" asp-action="Create">Color</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Toyota
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" asp-controller="CarModel" asp-action="Index">Models</a></li>
+                            <li><a class="dropdown-item" asp-controller="CarConfiguration" asp-action="Index">Configurations</a></li>
+                            <li><a class="dropdown-item" asp-controller="ConfigurationColor" asp-action="Index">Configuration Colors</a></li>
+                            <li><a class="dropdown-item" asp-controller="Colors" asp-action="Index">Color</a></li>
+                        </ul>
                     </li>
                 </ul>
                 <partial name="_LoginPartial"/>
