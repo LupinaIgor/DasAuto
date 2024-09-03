@@ -13,4 +13,7 @@ public class ConfigurationModel
     
     [ForeignKey("ModelId")]
     public ToyotaModel Model { get; set; }
+    
+    public List<ConfigurationColorsModel> Colors { get; set; } = new List<ConfigurationColorsModel>();
+
 }

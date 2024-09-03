@@ -82,12 +82,11 @@ namespace WebApplicationCar.Controllers.Toyota
                 _context.Configurations.Find(configurationColorsModel.ConfigurationId);
             configurationColorsModel.Color = _context.Colors.Find(configurationColorsModel.ColorId);
             
-            if (ModelState.IsValid)
-            {
+           
                 _context.Add(configurationColorsModel);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
+            
 
             ViewData["ColorId"] = new SelectList(_context.Colors, "Id", "Name", configurationColorsModel.ColorId);
             ViewData["ConfigurationId"] = new SelectList(_context.Configurations, "Id", "Name", configurationColorsModel.ConfigurationId);

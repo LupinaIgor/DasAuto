@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -267,6 +263,14 @@
     {
       "Id": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\storage\\colors\\Червоний перламутр (3U5).jpg",
       "PackagePath": "staticwebassets\\storage\\colors\\Червоний перламутр (3U5).jpg"
+    },
+    {
+      "Id": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\storage\\configuration_colors\\yaris_white.jpg",
+      "PackagePath": "staticwebassets\\storage\\configuration_colors\\yaris_white.jpg"
+    },
+    {
+      "Id": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\storage\\configuration_colors\\Білий лак (040).jpg",
+      "PackagePath": "staticwebassets\\storage\\configuration_colors\\Білий лак (040).jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplicationCar.Microsoft.AspNetCore.StaticWebAssets.props",

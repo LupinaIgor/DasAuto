@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ooJHyIPZwXBKJSXmKh63UBfDCjzaaLzFUJQ5/fEiHSA=",
+  "Hash": "aTiroTIxkXL4/WepaB8MkNZhV1M6HlJB+BT1mild3R0=",
   "Source": "WebApplicationCar",
   "BasePath": "_content/WebApplicationCar",
   "Mode": "Default",
@@ -1212,25 +1212,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\favicon.ico",
-      "SourceId": "WebApplicationCar",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\",
-      "BasePath": "_content/WebApplicationCar",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\js\\site.js",
@@ -2447,6 +2428,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\storage\\colors\\Червоний перламутр (3U5).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\storage\\configuration_colors\\Білий лак (040).jpg",
+      "SourceId": "WebApplicationCar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\",
+      "BasePath": "_content/WebApplicationCar",
+      "RelativePath": "storage/configuration_colors/Білий лак (040).jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\storage\\configuration_colors\\Білий лак (040).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\storage\\configuration_colors\\yaris_white.jpg",
+      "SourceId": "WebApplicationCar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igorl\\RiderProjects\\DasAuto\\WebApplicationCar\\WebApplicationCar\\wwwroot\\",
+      "BasePath": "_content/WebApplicationCar",
+      "RelativePath": "storage/configuration_colors/yaris_white.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\storage\\configuration_colors\\yaris_white.jpg"
     }
   ]
 }
