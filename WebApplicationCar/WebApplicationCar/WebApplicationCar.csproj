@@ -22,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\Toyota\" />
+      <Folder Include="Controllers\Api\" />
       <Folder Include="wwwroot\storage\colors\" />
       <Folder Include="wwwroot\storage\configuration_colors\" />
     </ItemGroup>

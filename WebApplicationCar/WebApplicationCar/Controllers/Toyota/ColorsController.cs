@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebApplicationCar.Data;
-using WebApplicationCar.Models;
+using WebApplicationCar.Models.ViewModels;
 using WebApplicationCar.Models.Cars.Toyota;
 
 namespace WebApplicationCar.Controllers.Toyota

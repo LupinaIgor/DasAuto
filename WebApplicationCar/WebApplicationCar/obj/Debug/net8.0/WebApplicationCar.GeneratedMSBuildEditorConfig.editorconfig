@@ -30,6 +30,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/igorl/RiderProjects/DasAuto/WebApplicationCar/WebApplicationCar/Views/CarByColor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQnlDb2xvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/igorl/RiderProjects/DasAuto/WebApplicationCar/WebApplicationCar/Views/CarConfiguration/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQ29uZmlndXJhdGlvblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -120,6 +124,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/igorl/RiderProjects/DasAuto/WebApplicationCar/WebApplicationCar/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igorl/RiderProjects/DasAuto/WebApplicationCar/WebApplicationCar/Views/Page/ColorPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxDb2xvclBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igorl/RiderProjects/DasAuto/WebApplicationCar/WebApplicationCar/Views/SearchColor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoQ29sb3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/igorl/RiderProjects/DasAuto/WebApplicationCar/WebApplicationCar/Views/Shared/Error.cshtml]
