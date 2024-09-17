@@ -69,6 +69,7 @@
         })
         
         return false;
+        
     } 
     
 </script>
@@ -130,7 +131,9 @@
                 
     }
     
-    fetch('/api/ApiColor')
+    let pageSize = 3;
+    
+    fetch(`/api/ApiColor?pageSize=${pageSize}`)
     .then(res => res.json())
     .then(res => {
         data = res.data;
